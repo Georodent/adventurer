@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: gold;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30rem;
+}
+h1 {
+  font-size: 2rem;
+  box-shadow: 25px 25px 25px yellow;
+  background-color: yellow;
+  
+}
