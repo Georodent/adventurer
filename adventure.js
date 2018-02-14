@@ -1,12 +1,15 @@
+
+
 var toPlay = prompt("Would you like to play a game?")
 
-
 // yes or no, if no
+
 if(toPlay == "no"){
   alert("OK. Goodbye!!")
 }else {
   alert("Let's begin!");
 }
+
 //Define the size of game play area
 var maxX = 2
 var maxY = 2
@@ -29,7 +32,7 @@ var name = prompt("Welcome brave new adventurer! What are you called?")
 // Ask if user wants to play game
 
 while(!treasureFound){
-  var direction = prompt("Which direction would you like to go in? (North,South, East, or West")
+  var direction = prompt("Which direction would you like to go in? (north,south, east, or west")
   console.log(direction)
 
   // temp vars, only used for checking validity new user location after move
@@ -94,3 +97,4 @@ while(!treasureFound){
   }
 
 }
+
